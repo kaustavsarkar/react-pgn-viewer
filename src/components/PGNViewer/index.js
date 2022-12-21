@@ -375,7 +375,7 @@ const PGNViewer = ({
             blackSquareColour={opts.blackSquareColour}
             border={opts.border}
             config={{
-              draggable: false,
+              draggable: true,
               orientation: boardOrientation,
               pieceTheme,
               showNotation: opts.showNotation,
